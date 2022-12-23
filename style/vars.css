@@ -24,9 +24,11 @@ font-family: 'Yeseva One', cursive; */
     --color-theme1: #363636;
     --color-theme2: #959595;
     --color-theme3: #E3B873;
-    --h1-fs: 2.5rem; 
-    --h2-fs: 2rem; 
-    --h3-fs: 1.5rem; 
-    --h4-fs: 1.25rem;
+    --color-theme4: rgba(227, 184, 115, 0.2);
+    /* font-size 11px */
+    --fs1: .68rem; 
+
+    /* line-height 15px */
+    --lh1: .93rem;
     --font-style: italic; 
 }
