@@ -9,8 +9,8 @@
 .header__button {
     width: 161px;
     height: 37px;
-    font-style: italic;
-    color: var(--color-light);
+    /* font-style: italic;
+    color: var(--color-light); */
     text-transform: uppercase;
 }
 
@@ -23,7 +23,8 @@
     color: var(--color-theme3);
 }
 
-.header__button, .logo__link {
+/* .header__button */
+.logo__link {
     font-size: var(--fs1);
     line-height: var(--lh1);
 }
