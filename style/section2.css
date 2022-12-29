@@ -1,0 +1,114 @@
+.section2__wrapper {
+    height: 1074px;
+    width: 100vw;
+}
+
+.section2__themes {
+    width: 623px;
+    margin-top: 107px;
+    margin-left: 535px;
+}
+
+.section2__theme {
+    text-transform: uppercase;
+    color: var(--color-light);
+    opacity: .3;
+    padding: 0 0 3px;
+    font-family: 'Yeseva One';
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.section2__theme_checked {
+    color: var(--color-theme3);
+    opacity: 1;
+    border-bottom: 1px solid var(--color-theme3);
+}
+
+.content-section2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.content-section2__description, .button-slider {
+    margin-left: 42px;
+}
+
+.content-section2__title {
+    width: 253px;
+    font-family: 'Yeseva One';
+    font-size: var(--fs4);
+    line-height: var(--lh4);
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: var(--color-theme3);
+}
+
+.content-section2__subtitle {
+    margin-top: 25px;
+    width: 442px;
+    font-size: var(--fs5);
+    line-height: var(--lh5);
+    color: var(--color-light);
+}
+
+.content-section2__info-wrapper {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 10px;
+    grid-row-gap: 32px;
+}
+
+.content-section2__info-title {
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: var(--color-theme3);
+
+}
+
+.content-section2__info-subtitle {
+    margin-top: 9px;
+    font-size: 13px;
+    line-height: 21px;
+    color: var(--color-light);
+}
+
+.img-content {
+    margin-right: 43px;
+    width: 679px;
+    height: 482px;
+}
+
+.button-slider {
+    margin-top: 82px;
+    width: 206px;
+    height: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle {
+    width: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle__page {
+    opacity: .3;
+}
+
+.circle__page_checked {
+    opacity: 1;
+}
+
+.left-arrow,
+.right-arrow,
+.circle__page,
+.section2__theme {
+    cursor: pointer;
+}

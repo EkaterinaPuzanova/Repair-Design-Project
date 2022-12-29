@@ -9,8 +9,6 @@
 .header__button {
     width: 161px;
     height: 37px;
-    /* font-style: italic;
-    color: var(--color-light); */
     text-transform: uppercase;
 }
 
