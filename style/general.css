@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
     font-weight: 400;
     background-color: var(--color-dark);
     color:var(--color-light);
@@ -73,6 +74,7 @@ button:hover,
 
 .title {
     font-family: 'Yeseva One';
+    font-weight: 400;
     font-size: var(--fs0);
     line-height:var(--lh0);
     text-align: center;

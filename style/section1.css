@@ -28,7 +28,8 @@
 .content-section1__title {
     width: 550px;
     height: 105px;
-    font-family: 'Yeseva One', cursive;;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
     font-size: var(--fs2);
     line-height: var(--lh2);
     text-transform: uppercase;
@@ -43,6 +44,7 @@
     width: 506px;
     font-size: var(--fs3);
     line-height: var(--lh3);
+    font-weight: 400;
 }
 
 .content-section1__button {

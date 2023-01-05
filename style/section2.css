@@ -15,6 +15,7 @@
     opacity: .3;
     padding: 0 0 3px;
     font-family: 'Yeseva One';
+    font-weight: 400;
     font-size: 14px;
     line-height: 19px;
 }
@@ -39,6 +40,7 @@
 .content-section2__title {
     width: 253px;
     font-family: 'Yeseva One';
+    font-weight: 400;
     font-size: var(--fs4);
     line-height: var(--lh4);
     letter-spacing: -0.07em;
@@ -50,6 +52,7 @@
     width: 442px;
     font-size: var(--fs5);
     line-height: var(--lh5);
+    font-weight: 400;
     color: var(--color-light);
 }
 
@@ -64,6 +67,7 @@
 
 .content-section2__info-title {
     font-family: 'Yeseva One';
+    font-weight: 400;
     font-size: var(--fs6);
     line-height: var(--lh6);
     color: var(--color-theme3);

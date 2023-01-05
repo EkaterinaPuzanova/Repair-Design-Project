@@ -41,7 +41,7 @@
 .title-img::after {
     position: absolute;
     content: "";
-    border-bottom: 1.5px solid var(--color-theme3);
+    border-bottom: 1.6px solid var(--color-theme3);
     width: 32px;
     height: 14px;
     top: 0px;
@@ -144,6 +144,7 @@
     padding-bottom: 2px;
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
     font-family: 'Nunito Sans';
+    font-weight: 400;
     font-size: 14px;
     line-height: 23px;
     color: var(--color-theme1);
