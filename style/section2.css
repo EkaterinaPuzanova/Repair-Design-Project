@@ -1,5 +1,6 @@
 .section2__wrapper {
-    height: 1074px;
+    /* height: 1074px; */
+    height: 967px;
     width: 100vw;
 }
 
@@ -10,7 +11,6 @@
 }
 
 .section2__theme {
-    text-transform: uppercase;
     color: var(--color-light);
     opacity: .3;
     padding: 0 0 3px;
@@ -19,6 +19,7 @@
     line-height: 19px;
 }
 
+.section2__theme:hover,
 .section2__theme_checked {
     color: var(--color-theme3);
     opacity: 1;
@@ -41,7 +42,6 @@
     font-size: var(--fs4);
     line-height: var(--lh4);
     letter-spacing: -0.07em;
-    text-transform: uppercase;
     color: var(--color-theme3);
 }
 
@@ -64,17 +64,15 @@
 
 .content-section2__info-title {
     font-family: 'Yeseva One';
-    font-size: 18px;
-    line-height: 25px;
-    text-transform: uppercase;
+    font-size: var(--fs6);
+    line-height: var(--lh6);
     color: var(--color-theme3);
-
 }
 
 .content-section2__info-subtitle {
     margin-top: 9px;
-    font-size: 13px;
-    line-height: 21px;
+    font-size: var(--fs7);
+    line-height: var(--lh7);
     color: var(--color-light);
 }
 
@@ -90,6 +88,11 @@
     height: 13px;
     display: flex;
     justify-content: space-between;
+}
+
+.button-arrow {
+    background: transparent;
+    border: none;
 }
 
 .circle {
@@ -111,4 +114,10 @@
 .circle__page,
 .section2__theme {
     cursor: pointer;
+}
+
+.section2__theme,
+.content-section2__title,
+.content-section2__info-title {
+    text-transform: uppercase;
 }

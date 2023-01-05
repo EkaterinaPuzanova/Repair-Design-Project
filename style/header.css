@@ -9,6 +9,7 @@
 .header__button {
     width: 161px;
     height: 37px;
+    line-height: 37px;
     text-transform: uppercase;
 }
 
@@ -39,6 +40,10 @@
     font-size: var(--fs1);
     line-height: var(--lh1);
     color: var(--color-light);
+}
+
+.nav__link:hover{
+    color: var(--color-theme3);
 }
 
 .nav__link_checked {

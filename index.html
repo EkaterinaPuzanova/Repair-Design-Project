@@ -70,19 +70,59 @@
                             </div>
                         </div>
                         <div class="button-slider">
-                            <img src="assets/images/left-arrow.svg" alt="left-arrow" class="left-arrow">
+                            <button class="button-arrow left-arrow" id="left-arrow"><img src="assets/images/left-arrow.svg" alt="left-arrow" class="left-arrow"></button>
                             <div class="circle">
                                 <img src="assets/images/circle.svg" alt="circle" class="circle__page circle__page_checked">
                                 <img src="assets/images/circle.svg" alt="circle" class="circle__page">
                                 <img src="assets/images/circle.svg" alt="circle" class="circle__page">
                             </div>
-                            <img src="assets/images/right-arrow.svg" alt="right-arrow" class="right-arrow">
+                            <button class="button-arrow right-arrow" id="right-arrow"><img src="assets/images/right-arrow.svg" alt="right-arrow" class="right-arrow"></button>
                         </div>
                     </div>
                     <div class="img-content">
                         <img src="assets/images/img-section2.jpg" alt="example-interior">
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="section3">
+            <div class="color-wrapper"></div>
+            <div class="section3__wrapper container">
+                <h3 class="title title-section3">online control</h3>
+                <div class="title-partition">
+                    <div class="title-img">
+                        <img src="assets/images/svg-section3.svg" alt="title-section3" class="svg-title">
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="opacity-wrapper opacity-video"></div>
+                    <img src="assets/images/img-section3.jpg" alt="repair video" class="video__img">
+                    <button class="button-section3"><img src="assets/images/triangle.svg" alt="triangle" class="triangle"></button>
+                </div>
+                <div class="hr"></div>
+                <p class="content-section3">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities! Leave&nbsp;a&nbsp;request below and you will receive a link to the broadcast.</p>
+                <form name="myForm">
+                    <div class="form-wrapper">
+                        <div class="form-wrapper__info">
+                            <div class="form-wrapper__name">
+                                <label class="label label-title" for="fname">Name</label><br>
+                                <input type="text" id="fname" name="fname" value="What is your name:" class="input-text">
+                            </div>
+                            <div class="form-wrapper__phone">
+                                <label class="label label-title" for="phone">Phone</label><br>
+                                <input type="text" id="phone" name="phone" value="Your phone number:" class="input-text">
+                            </div>
+                        </div>
+                        <div class="form-wrapper__submit">
+                            <input type="button" value="Submit" class="button button-submit">
+                        </div>
+                    </div>
+                    <div class="checkbox-wrapper">
+                        <input type="checkbox" id="checkbox" name="checkbox" class="checkbox" checked>
+                        <span class="fake"></span>
+                        <label class="label-submit" for="checkbox">I agree to the processing of personal data</label>
+                    </div>
+                </form>
             </div>
         </section>
     </main>

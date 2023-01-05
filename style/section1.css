@@ -26,7 +26,6 @@
 }
 
 .content-section1__title {
-    /* display: inline-block; */
     width: 550px;
     height: 105px;
     font-family: 'Yeseva One', cursive;;
@@ -40,7 +39,6 @@
 }
 
 .content-section1__text {
-    /* display: block; */
     margin-top: 16px;
     width: 506px;
     font-size: var(--fs3);
@@ -51,6 +49,7 @@
     margin-top: 27px;
     width: 207px;
     height: 51px;
+    line-height: 51px;
     color: var(--color-light);
     white-space: nowrap;
     padding: 0 auto;
