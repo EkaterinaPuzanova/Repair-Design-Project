@@ -45,7 +45,8 @@ body {
 .button,
 .link,
 .link-item,
-.button-submit {
+.button-submit,
+.content-section5__item {
     cursor: pointer;
     transition: all 0.3s ease;
 }
