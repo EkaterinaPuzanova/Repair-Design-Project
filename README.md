@@ -1,6 +1,10 @@
 # Repair-Design-Project
 
-It is a responsive landing page.
+It is a landing page.
+
+* dekstop version - width 1440px;
+
+* mobile version - width 375px;
 
 [Link to this website][def]
 
