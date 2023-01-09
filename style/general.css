@@ -1,5 +1,6 @@
 html {
-	scroll-behavior: smooth; 
+	scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 * {
@@ -46,7 +47,8 @@ body {
 .link,
 .link-item,
 .button-submit,
-.content-section5__item {
+.content-section5__item,
+.tel__link {
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -81,4 +83,10 @@ button:hover,
     text-align: center;
     text-transform: uppercase;
     color: var(--color-light);
+}
+
+@media (max-width: 375px) {
+    body {
+        background: var(--color-theme5);
+    }
 }

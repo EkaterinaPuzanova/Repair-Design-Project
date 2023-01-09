@@ -1,3 +1,7 @@
+.section5-small {
+    display: none;
+}
+
 .section5 {
     position: relative;
     background: url(../assets/images/background-section5.jpg) no-repeat center center;
@@ -72,8 +76,6 @@
     position: absolute;
     z-index: 3;
     top: -113px;
-    /* width: 750px;
-    height: 1018px; */
     gap: 33px;
 }
 
@@ -88,4 +90,27 @@
 .wrapper-img-section5__foto4 {
     margin-left: 9px;
     margin-top: -356px;
+}
+
+@media (max-width: 375px) {
+    .section5 {
+        display: none;
+    }
+
+    .section5-small {
+        display: block;
+    }
+
+    .title-section5-small {
+        margin-top: -213px;
+        font-family: 'Yeseva One';
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+        color: var(--color-theme3);
+    }
+
+    .section5-small__wrapper {
+        margin-top: 33px;
+    }
 }

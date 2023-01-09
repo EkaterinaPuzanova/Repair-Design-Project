@@ -56,8 +56,13 @@
     color: var(--color-light);
 }
 
+.content-section2__small {
+    display: none;
+}
+
 .content-section2__info-wrapper {
-    margin-top: 45px;
+    margin-top: 47px;
+    margin-right: 25px;
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
@@ -124,4 +129,90 @@
 .content-section2__title,
 .content-section2__info-title {
     text-transform: uppercase;
+}
+
+@media (max-width: 375px) {
+    .section2__themes,
+    .img-content {
+        display: none;
+    }
+
+    .content-section2__description {
+        margin: 0;
+    }
+
+    .content-section2__title {
+        width: 215px;
+        margin: -11px auto 0;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.07em;
+    }
+
+    .content-section2__subtitle {
+        width: 311px;
+        margin: 29px auto 0;
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+    .content-section2 {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .content-section2__small {
+        display: block;
+        position: relative;
+        width: 340px;
+        height: 241px;
+        margin: 71px auto 0;
+    }
+
+    .small-button {
+        width: 36px;
+        height: 36px;
+        background: var(--color-theme3);
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .small-button-left,
+    .small-button-right {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .small-button-left {
+        left: 13px;
+    }
+
+    .small-button-right {
+        right: 13px;
+    }
+
+    .content-section2__info {
+        text-align: start;
+    }
+
+    .content-section2__info-title {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .content-section2__info-subtitle {
+        font-size: 11px;
+        line-height: 15px;
+        margin-top: 13px;
+    }
+
+    .content-section2__info-wrapper {
+        margin: 37px 10px 0 18px;
+    }
+
+    .button-slider {
+        display: none;
+    }
 }

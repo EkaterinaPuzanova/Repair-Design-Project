@@ -62,3 +62,24 @@
     line-height: var(--lh1);
     color: var(--color-theme3);
 }
+
+.tel__link:hover {
+    opacity: .7;
+}
+
+@media (max-width: 375px) {
+    .nav,
+    .header__button {
+        display: none;
+    }
+
+    .header__wrapper {
+        height: 58px;
+        padding: 0 18px;
+    }
+
+    .tel__link {
+        text-decoration: none;
+        color: var(--color-light);
+    }
+}

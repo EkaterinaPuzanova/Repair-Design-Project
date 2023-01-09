@@ -105,3 +105,9 @@
 .info {
     margin-left: 16px;
 }
+
+@media (max-width: 375px) {
+    .section6 {
+        display: none;
+    }
+}

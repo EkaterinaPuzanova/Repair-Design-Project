@@ -51,6 +51,10 @@
     margin-left: 10px;
 }
 
+.content-section4-part1__part {
+    position: relative;
+}
+
 .content-section4-part1__img {
     width: 392px;
     height: 421px;
@@ -237,7 +241,7 @@
     font-size: 14px;
     line-height: 23px;
     color: var(--color-light);
-    background: var(--color-dark);
+    background: var(--color-theme5);
     border: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);;
     padding-bottom: 5px;
@@ -267,4 +271,86 @@
 
 .button-submit-section4 {
     width: 213px;
+}
+
+@media (max-width: 375px) {
+    .section4 {
+        height: 2030px;
+    }
+
+    .title-section4 {
+        padding-top: 81px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .title-partition-section4 {
+        margin-top: 14px;
+    }
+
+    .content-section4-part1 {
+        width: 340px;
+        height: 1628px;
+        margin: 41px auto 0;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .content-section4-part1__img {
+        width: 340px;
+        height: 365px;
+        overflow: hidden;
+    }
+
+    .content-section4-part1__item {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .content-section4-part2,
+    .content-section4-part1__img img {
+        display: none;
+    }
+
+    .img-one {
+        background: url(../assets/images/img-one.jpg);
+    }
+
+    .img-two {
+        background: url(../assets/images/img-two.jpg);
+    }
+
+    .img-three {
+        background: url(../assets/images/img-three.jpg);
+    }
+
+    .content-section4-part1__text {
+        width: 270px;
+        height: 241px;
+        left: 0;
+        top: 223px;
+        padding: 22px 0 0 31px;
+    }
+
+    .content-section4-part1__title {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .price {
+        width: 190px;
+        height: 40px;
+        margin-top: 17px;
+        margin-left: -31px;
+    }
+
+    .price__text {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .input-text-section4 {
+        background: var(--color-theme5);
+        border-bottom: 2px solid rgb(107 107 107 / 30%);
+    }
 }

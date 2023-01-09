@@ -20,7 +20,7 @@
 .form-section7 {
     width: 883px;
     height: 445px;
-    background: var(--color-dark);
+    background: var(--color-theme5);
     position: absolute;
     left:50%;
     transform:translate(-50%, -50%);
@@ -42,7 +42,7 @@
     margin-top: 43px;
 }
 
-.form-wrapper-section4 {
+.form-wrapper-section7 {
     width: calc(50% - 25px);
     margin: 0;
 }
@@ -52,7 +52,7 @@
     margin-top: 41px;
 }
 
-.checkbox-wrapper-section4 {
+.checkbox-wrapper-section7 {
     width: 286px;
     margin: 42px auto 0;
 }
@@ -114,6 +114,10 @@
     opacity: .7;
 }
 
+.map__img-small {
+    display: none;
+}
+
 .map {
     position: absolute;
     top: 424px;
@@ -124,4 +128,113 @@
 .map__img {
     width: 925px;
     height: 465px;
+}
+
+.enter-checked-small {
+    display: none;
+}
+
+@media (max-width: 375px) {
+    .section7 {
+        background: var(--color-theme5);
+    }
+
+    .form-section7 {
+        width: 340px;
+        padding: 0;
+    }
+
+    .section7__wrapper {
+        margin-top: 241px;
+    }
+
+    .form-section7 {
+        margin-left: 0;
+    }
+
+    .wrapper-items-section7 {
+        display: block;
+        margin-top: 47px;
+    }
+
+    .form-wrapper-section7 {
+        width: 100%;
+    }
+
+    .form-wrapper-section7:last-child {
+        margin-top: 56px;
+    }
+
+    .email-wrapper7 {
+        margin-top: 54px;
+    }
+
+    .checkbox-wrapper-section7 {
+        width: 100%;
+        margin-top: 17px;
+        padding-left: 4px;
+    }
+
+    .opacity-wrapper-section7 {
+        background: rgba(255, 255, 255, 0);
+    }
+
+    .form-wrapper-submit-section7 {
+        margin-top: 64px;
+        width: 100%;
+    }
+
+    .button-submit-section7 {
+        width: 100%;
+    }
+
+    .map__img-small {
+        display: inline-block;
+    }
+
+    .map__img {
+        display: none;
+    }
+
+    .map {
+        top: 354px;
+        width: 340px;
+        height: 255px;
+        overflow: hidden;
+    }
+
+    .map img {
+        width: 340px;
+        height: 255px;
+    }
+
+    .adress {
+        width: 324px;
+        top: 649px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .contact {
+        top: 745px;
+        width: 100px;
+    }
+
+    .enter-checked-large {
+        display: none;
+    }
+
+    .enter-checked-small {
+        display: inline;
+    }
+
+    .mail, .inst {
+        width: 39px;
+        height: 39px;
+    }
+
+    .mail img, .inst img{
+        width: 19px;
+        height: 19px;
+    }
 }
