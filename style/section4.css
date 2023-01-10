@@ -72,7 +72,7 @@
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
     position: absolute;
     top: 296px;
-    left: 32px;
+    left: 30.5px;
     padding: 22px 0 0 34px;
 }
 
@@ -210,7 +210,7 @@
     margin-top: 107px;
     margin-left: 96px;
     padding: 28px 49px 0;
-    background: var(--color-dark);
+    background: var(--color-theme5);
     box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
 }
 
@@ -273,6 +273,83 @@
     width: 213px;
 }
 
+@media (max-width: 1295px) {
+    .content-section4-part1,
+    .content-section4-part2 {
+        width: 95vw;
+        margin: 10px auto 0;
+    }
+
+    .content-section4-part2 {
+        justify-content: space-around;
+    }
+
+    .content-section4-part2__left,
+    .content-section4-part2__text {
+        width: 30vw;
+    }
+
+    .service__text {
+        width: 20vw;
+    }
+
+    .content-section4-part2__text {
+        right: 0;
+    }
+
+    .content-section4-part1__part {
+        width: 30vw;
+    }
+
+    .content-section4-part1__text {
+        width: 25vw;
+    }
+
+    .content-section4-part1__img, .content-section4-part1__img img{
+        height: auto;
+        width: 100%;
+        max-width: 392px;
+    }
+}
+
+@media (max-width: 1045px) {
+    .content-section4-part2__right,
+    .content-section4-part2__left {
+        height: 800px;
+    }
+}
+
+@media (max-width: 915px) {
+    .wrapper-background img {
+        display: none;
+    }
+}
+
+@media (max-width: 905px) {
+    .content-section4-part2 {
+        display: none;
+    }
+
+    .content-section4-part1 {
+        height: 2320px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -340px;
+    }
+
+    .content-section4-part1__img,
+    .content-section4-part1__img img,
+    .content-section4-part1__part {
+        width: 269px;
+    }
+
+    .content-section4-part1__text {
+        top: 244px;
+        width: 226px;
+    }
+}
+
 @media (max-width: 375px) {
     .section4 {
         height: 2030px;
@@ -288,12 +365,18 @@
         margin-top: 14px;
     }
 
+    .content-section4-part1__part {
+        width: auto;
+    }
+
     .content-section4-part1 {
         width: 340px;
         height: 1628px;
         margin: 41px auto 0;
         flex-wrap: wrap;
         justify-content: start;
+        flex-direction: row;
+        align-items: flex-start;
     }
 
     .content-section4-part1__img {

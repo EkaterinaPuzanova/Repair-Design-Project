@@ -18,7 +18,8 @@ body {
 }
 
 .container {
-    max-width: 1256px;
+    max-width: 1276px;
+    padding: 0 10px;
     margin: 0 auto;
 }
 
@@ -88,5 +89,9 @@ button:hover,
 @media (max-width: 375px) {
     body {
         background: var(--color-theme5);
+    }
+
+    .container {
+        padding: 0;
     }
 }

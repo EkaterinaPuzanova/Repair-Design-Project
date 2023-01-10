@@ -92,7 +92,29 @@
     margin-top: -356px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1295px) {
+    .content-section5 {
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    .content-section5__right {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1150px) {
+    .wrapper-img-section5 {
+        gap: 6px;
+        top: -100px;
+    }
+
+    .content-section5__right {
+        width: 724px;
+    }
+}
+
+@media (max-width: 1050px) {
     .section5 {
         display: none;
     }
@@ -102,7 +124,7 @@
     }
 
     .title-section5-small {
-        margin-top: -213px;
+        margin-top: 14px;
         font-family: 'Yeseva One';
         font-size: 22px;
         line-height: 30px;
@@ -111,6 +133,73 @@
     }
 
     .section5-small__wrapper {
+        display: block;
+        position: relative;
         margin-top: 33px;
+        max-width: 100%;
+        width: 60vw;
+        margin: 5vw auto;
+    }
+
+    .section5-small__wrapper,
+    .section5-small__wrapper img {
+        max-width: 100%;
+        height: auto;
+        width: 60vw;
+    }
+
+    .small-button {
+        width: 36px;
+        height: 36px;
+        background: var(--color-theme3);
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .small-button-left,
+    .small-button-right {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .small-button-left {
+        left: 13px;
+    }
+
+    .small-button-right {
+        right: 13px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    /* .section5 {
+        display: none;
+    }
+
+    .section5-small {
+        display: block;
+    } */
+
+    .title-section5-small {
+        margin-top: -213px;
+        font-family: 'Yeseva One';
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+        color: var(--color-theme3);
+
+    }
+
+    .section5-small__wrapper {
+        margin-top: 33px;
+        width: 340px;
+    }
+
+    .section5-small__wrapper,
+    .section5-small__wrapper img {
+        max-width: 100%;
+        height: auto;
+        width: 340px;
     }
 }

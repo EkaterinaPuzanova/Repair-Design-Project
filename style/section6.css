@@ -103,10 +103,16 @@
 }
 
 .info {
-    margin-left: 16px;
+    margin-left: 15.5px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1439px) {
+    .section6-background {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
     .section6 {
         display: none;
     }
