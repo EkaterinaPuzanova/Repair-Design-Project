@@ -1,0 +1,119 @@
+.section6 {
+    background: var(--color-light);
+    position: relative;
+    height: 1114px;
+}
+
+.section6-background {
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.section6-background__img {
+    width: 50vw;
+    height: 1114px;
+    position: relative;
+}
+
+.section6-background__position-left,
+.section6-background__position-right {
+    position: absolute;
+    bottom: -15px;
+}
+
+.section6-background__position-left {
+    right: -10px;
+}
+
+.section6-background__position-right {
+    left: -10px;
+}
+
+.section6__wrapper {
+    position: relative;
+    z-index: 4;
+}
+
+.title-section6 {
+    padding-top: 106px;
+    color: var(--color-theme5);
+}
+
+.section6 .title-img::after {
+    margin-left: 44px;
+}
+
+.subtitle-section6 {
+    margin-top: 23px;
+    width: 406px;
+    line-height: 29px;
+}
+
+.content-section6__item {
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    width: 376px;
+    height: 428px;
+    margin-top: 11px;
+    padding: 24px 20px;
+}
+
+.content-section6__title {
+    display: flex;
+    align-items: center;
+}
+
+.content-section6__foto {
+    width: 76px;
+    height: 76px;
+}
+
+.content-section6__fio {
+    width: 178px;
+    margin-left: 25px;
+}
+
+.content-section6__text {
+    width: 324px;
+    margin-top: 22px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 180%;
+    color: var(--color-theme2);
+}
+
+.content-section6__price {
+    margin-top: 67px;
+    margin-left: -19px;
+    display: flex;
+    width: 294px;
+    padding-left: 17px;
+}
+
+.vertical-line {
+    height: 100%;
+    width: 1px;
+    margin: 0 14px;
+    background-color: var(--color-light);
+}
+
+.info {
+    margin-left: 15.5px;
+}
+
+@media (max-width: 1439px) {
+    .section6-background {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .section6 {
+        display: none;
+    }
+}

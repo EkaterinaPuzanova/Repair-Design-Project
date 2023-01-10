@@ -1,0 +1,272 @@
+.section7 {
+    position: relative;
+    background: url(../assets/images/section7-background.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.opacity-wrapper-section7 {
+    /* background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%); */
+    background: rgba(0, 0, 0, 0.87);
+}
+
+.section7__wrapper {
+    height: 954px;
+    width: 100vw;
+    margin-top: -8px;
+    position: relative;
+    z-index: 4;
+}
+
+.form-section7 {
+    width: 883px;
+    height: 445px;
+    background: var(--color-theme5);
+    position: absolute;
+    left:50%;
+    transform:translate(-50%, -50%);
+    margin-left: 10px;
+    padding: 0px 182px;
+}
+
+.form-title-section7 {
+    font-family: 'Yeseva One';
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-top: 31px;
+}
+
+.wrapper-items-section7 {
+    display: flex;
+    gap: 50px;
+    margin-top: 43px;
+}
+
+.form-wrapper-section7 {
+    width: calc(50% - 25px);
+    margin: 0;
+}
+
+.email-wrapper7 {
+    width: 100%;
+    margin-top: 41px;
+}
+
+.checkbox-wrapper-section7 {
+    width: 286px;
+    margin: 42px auto 0;
+}
+
+.form-wrapper-submit-section7 {
+    width: 200px;
+    margin: 46px auto 0;
+}
+
+.button-submit-section7 {
+    box-shadow: none;
+}
+
+.adress {
+    position: absolute;
+    top: 273px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 589px;
+    margin: 0 auto;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-theme3);
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    width: 71px;
+    position: absolute;
+    top: 351px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mail,
+.inst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--color-theme3);
+}
+
+.mail__link,
+.inst__link {
+    transition: all .3s;
+}
+
+.mail__link:hover,
+.inst__link:hover {
+    opacity: .7;
+}
+
+.map__img-small {
+    display: none;
+}
+
+.map {
+    position: absolute;
+    top: 422px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.map__img {
+    width: 925px;
+    height: 465px;
+}
+
+.enter-checked-small {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .form-section7 {
+        transform:translate(-50%);
+        margin-top: 90px;
+    }
+
+    .section7__wrapper {
+        height: 1024px;
+    }
+
+    .adress {
+        top: 570px;
+    }
+
+    .contact {
+        top: 650px
+    }
+
+    .map {
+        top: 700px;
+    }
+
+    .map img {
+        max-width: 100%;
+        height: auto
+    };
+}
+
+@media (max-width: 950px) {
+    .section7 {
+        background: var(--color-theme5);
+    }
+
+    .form-section7 {
+        width: 340px;
+        padding: 0;
+        margin-top: -6px;
+        transform:translate(-50%, -50%);
+    }
+
+    .section7__wrapper {
+        margin-top: 241px;
+        height: 954px;
+    }
+
+    .form-section7 {
+        margin-left: 0;
+    }
+
+    .wrapper-items-section7 {
+        display: block;
+        margin-top: 47px;
+    }
+
+    .form-wrapper-section7 {
+        width: 100%;
+    }
+
+    .form-wrapper-section7:last-child {
+        margin-top: 56px;
+    }
+
+    .email-wrapper7 {
+        margin-top: 54px;
+    }
+
+    .checkbox-wrapper-section7 {
+        width: 100%;
+        margin-top: 17px;
+        padding-left: 4px;
+    }
+
+    .opacity-wrapper-section7 {
+        background: rgba(255, 255, 255, 0);
+    }
+
+    .form-wrapper-submit-section7 {
+        margin-top: 64px;
+        width: 100%;
+    }
+
+    .button-submit-section7 {
+        width: 100%;
+    }
+
+    .map__img-small {
+        display: inline-block;
+    }
+
+    .map__img {
+        display: none;
+    }
+
+    .map {
+        top: 348px;
+        width: 340px;
+        height: 255px;
+        overflow: hidden;
+    }
+
+    .map img {
+        max-width: none;
+        width: 340px;
+        height: 255px;
+    }
+
+    .adress {
+        width: 324px;
+        top: 643px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .contact {
+        top: 739px;
+        width: 100px;
+    }
+
+    .enter-checked-large {
+        display: none;
+    }
+
+    .enter-checked-small {
+        display: inline;
+    }
+
+    .mail, .inst {
+        width: 39px;
+        height: 39px;
+    }
+
+    .mail img, .inst img{
+        width: 19px;
+        height: 19px;
+    }
+}

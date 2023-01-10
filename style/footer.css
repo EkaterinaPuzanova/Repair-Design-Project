@@ -1,0 +1,9 @@
+.footer__wrapper {
+    height: 133px;
+}
+
+@media (max-width: 375px) {
+    .footer {
+        display: none;
+    }
+}
